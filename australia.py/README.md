@@ -1,0 +1,3 @@
+# Australia.py
+Uns scripts aleatórios do curso de python CEV...
+Seja bem vindo para explorar.
