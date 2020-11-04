@@ -91,7 +91,7 @@ else:
         sleep(5)
 
         try:
-            sair = bool(input('Presione QUALQUER TECLA para FECHAR...'))
+            sair = bool(input('Presione QUALQUER TECLA para FECHAR... '))
         except KeyboardInterrupt:
             print(f'\n\n\n\033[1;31m{"ENCERRANDO..."}\033[m')
             sleep(2)
