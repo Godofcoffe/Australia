@@ -42,3 +42,6 @@ print(f'Seu nome é {nome} que merda.')
 ***
 ### emojis
 texto :nome do emoji: :hand:
+***
+### barrinha lateral
+> cafe
