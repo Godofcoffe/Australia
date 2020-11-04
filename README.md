@@ -30,7 +30,7 @@ n | nome | seila
 ---|---|---
 1 | jao | cafeina
 2 | jerson | mafagafu
-
+***
 ### comandos
 comando = `document.write('Quero cafe!!!')`
 
@@ -39,5 +39,6 @@ trexos =
 nome = str(input('Manda seu nome ai'))
 print(f'Seu nome é {nome} que merda.')
 ```
+***
 ### emojis
 texto :nome do emoji: :hand:
