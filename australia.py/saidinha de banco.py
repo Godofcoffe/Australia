@@ -1,5 +1,6 @@
 from time import sleep
 
+# número de notas disponivel no caixa...
 caixa = {'notas50': 1000,
          'notas20': 1000,
          'notas10': 1000,
