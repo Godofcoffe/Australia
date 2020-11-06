@@ -1,5 +1,6 @@
 # Australia
 Zona de testes do "criador"...
+> Uns scripts aleátorios do curso de python CEV
 
 `print('Olá, mundo')`
-`document.write('Olá,Mundo')`
+`alert('Olá,Mundo')`
