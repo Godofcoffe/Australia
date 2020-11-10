@@ -1,4 +1,4 @@
-palavras = ('Cafe', 'sorvete', 'cocaina', 'chinelo', '"suc"', 'mafagafos', 'champola', 'Essencia de cavalo')
+palavras = ('Cafe', 'sorvete', 'cocaina', 'chinelo', '"suc"', 'mafagafos', 'champola', 'azuzinho')
 for p in palavras:
     print(f'Na palavra \033[33m{p.upper()}\033[m temos essas vogais: ', end=' ')
     for letra in p:
