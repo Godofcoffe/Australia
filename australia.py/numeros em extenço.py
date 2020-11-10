@@ -14,17 +14,22 @@ numeros = ('cero',
            'treze',
            'catorze',
            'quinze',
-           'dieseseis',
-           'diesesiete',
-           'dieseocho',
-           'diesenueve',
+           'diesiseis',
+           'diesisiete',
+           'diesiocho',
+           'diesinueve',
            'veinte')
-entrada = int(input('Manda un numero ai entre 0 e 20: '))
-while entrada > 20 or entrada < 0:
-    entrada = int(input('ENTRE 0 E 20: '))
-
-for pos, n in enumerate(numeros):
-    if entrada == pos:
-        print(f'Usted digitó el número {numeros[pos]}')
-        print('espero que tenga un bueno dia!')
-        print('Vuelve siempre')
+while True:
+    entrada = int(input('Manda un numero ai entre 0 e 20: '))
+    while entrada > 20 or entrada < 0:
+        entrada = int(input('ENTRE 0 E 20: '))
+    print(f'Voce escolheu o número {numeros[entrada]}')
+    while True:
+        esc = str(input('Quer continuar? [S/N] ')).strip().lower()[0]
+        if esc == 'n':
+            break
+        elif esc == 's':
+            pass
+        else:
+            print('Eu sou uma piada para voce!?')
+            esc = str(input('Quer continuar? SIM OU NÃO ')).strip().lower()[0]
