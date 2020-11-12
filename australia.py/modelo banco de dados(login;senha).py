@@ -1,6 +1,7 @@
 """
 banquin de dados
 Se quisérez pode salvar os dicionarios em um txt...
+e adicionar criptografia as pwds
 """
 from random import randint
 
