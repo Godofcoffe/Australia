@@ -6,6 +6,23 @@ caixa = {'notas50': 1000,
          'notas10': 1000,
          'notas1': 1000}
 
+
+def valid(tot, nota, cx, var_nota=0):
+    for c in range(0, cx):
+        if tot < nota:
+            break
+        if cx == 0 and tot >= nota:
+            print(f'Acabaram as notas de {nota}...')
+            break
+        else:
+            tot -= nota
+            var_nota += 1
+            cx -= 1
+    if var_nota > 0:
+        print(f'> {var_nota:>2} nota(s) de {nota}')
+    return tot, cx
+
+
 print('-' * 40)
 print('SAIDINHA DE BANCO.PY')
 print('-' * 40)
@@ -17,10 +34,6 @@ except KeyboardInterrupt:
 else:
     while True:
         total = n
-        n50 = 0
-        n20 = 0
-        n10 = 0
-        n1 = 0
         if n > 1000:
             print(f'\033[33m{"O VALOR MAXIMO DE SAQUE É DE R$1.000..."}\033[m')
         else:
@@ -30,73 +43,28 @@ else:
                 if caixa['notas50'] == 0:
                     print('Notas de 50 insuficientes!\n')
                 else:
-                    for c in range(0, caixa['notas50']):
-                        if total < 50:
-                            break
-                        if caixa['notas50'] == 0 and total >= 50:
-                            print('Acabaram as notas de 50...')
-                            break
-                        else:
-                            total -= 50
-                            n50 += 1
-                            caixa['notas50'] -= 1
-                    if n50 > 0:
-                        print(f'> {n50:>2} nota(s) de 50')
+                    total, caixa['notas50'] = valid(total, 50, caixa['notas50'])
 
                 if caixa['notas20'] == 0:
                     print('Notas de 20 insufifientes!\n')
-
                 else:
-                    for c in range(0, caixa['notas20']):
-                        if total < 20:
-                            break
-                        if caixa['notas20'] == 0 and total >= 20:
-                            print('Acabaram as notas de 20...')
-                            break
-                        else:
-                            total -= 20
-                            n20 += 1
-                            caixa['notas20'] -= 1
-                    if n20 > 0:
-                        print(f'> {n20:>2} nota(s) de 20')
+                    total, caixa['notas20'] = valid(total, 20, caixa['notas20'])
 
                 if caixa['notas10'] == 0:
                     print('Notas de 10 insuficientes!\n')
                 else:
-                    for c in range(0, caixa['notas10']):
-                        if total < 10:
-                            break
-                        if caixa['notas10'] == 0 and total >= 10:
-                            print('Acabaram as notas de 10')
-                            break
-                        else:
-                            total -= 10
-                            n10 += 1
-                            caixa['notas10'] -= 1
-                    if n10 > 0:
-                        print(f'> {n10:>2} nota(s) de 10')
+                    total, caixa['notas10'] = valid(total, 10, caixa['notas10'])
 
                 if caixa['notas1'] == 0:
                     print('Notas de 1 insufucientes!\n')
                 else:
-                    for c in range(0, caixa['notas1']):
-                        if total < 1:
-                            break
-                        if caixa['notas1'] == 0 and total >= 1:
-                            print('As notas de 1 acabaram...')
-                            break
-                        else:
-                            total -= 1
-                            n1 += 1
-                            caixa['notas1'] -= 1
-                    if n1 > 0:
-                        print(f'> {n1:>2} nota(s) de  1')
+                    total, caixa['notas1'] = valid(total, 1, caixa['notas1'])
                 print('')
 
         sleep(5)
 
         try:
-            sair = bool(input('Presione QUALQUER TECLA para FECHAR... '))
+            sair = bool(input('Presione ENTER para FECHAR... '))
         except KeyboardInterrupt:
             print(f'\n\n\n\033[1;31m{"ENCERRANDO..."}\033[m')
             sleep(2)
