@@ -3,7 +3,7 @@ lista. Caso o número já exista lá dentro, ele não será adicionado. No final
 digitados, em ordem crescente. """
 nuns = list()
 while True:
-    entrada = str(input('Número: '))
+    entrada = int(input('Número: '))
     if entrada in nuns:
         print(f'Número ja existente...')
     else:
