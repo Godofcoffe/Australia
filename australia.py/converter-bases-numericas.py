@@ -4,7 +4,7 @@ print('{:.^80}'.format('conversor numérico.').upper())
 init = bool(input('Pressione ENTER para INICIAR...'))
 while not init:
     try:
-        n = int(input('\nDigite um número...\nOu qualquer outra coisa para CANCELAR: '))
+        n = int(input('\nDigite um número: '))
     except ValueError:
         break
     else:
@@ -15,7 +15,9 @@ while not init:
         sleep(0.5)
         print('[ 2 ] Octal')
         sleep(0.5)
-        print('[ 3 ] Hexadecimal\n')
+        print('[ 3 ] Hexadecimal')
+        sleep(0.5)
+        print('[ 4 ] Sair\n')
         sleep(3)
         try:
             opc = int(input('Sua escolha: '))
@@ -29,6 +31,8 @@ while not init:
                 print(f'\n> \033[32m{oct(n)[2:]}\033[m <')
             elif opc == 3:
                 print(f'\n> \033[32m{hex(n)[2:]}\033[m <')
+            elif opc == 4:
+                break
             print('-' * 40)
             init = bool(input('Pressione ENTER para continuar.\nOu qualquer tecla para fechar... '))
             # digite alguma coisa e de ENTER para fechar.
