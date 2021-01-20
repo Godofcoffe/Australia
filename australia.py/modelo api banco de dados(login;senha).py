@@ -21,10 +21,14 @@ while True:
         pwd = str(input('Senha: '))
         for c in range(0, 8):
             tmp.append(str(randint(0, 9)))
-        users[user] = ''.join(tmp)
-        pwds[user] = pwd
-        tmp.clear()
-        print('Cadastro feito com sucesso!')
+        aidi = ''.join(tmp)
+        if aidi in users or user in users:
+            print('Usuario já existe!')
+        else:
+            users[user] = aidi
+            pwds[user] = pwd
+            tmp.clear()
+            print('Cadastro feito com sucesso!')
 
     elif esc == 2:
         user = str(input('Usuario: '))
@@ -35,6 +39,6 @@ while True:
         else:
             print('login aprovado')
             break
-# pode adicionar mais coias aqui
+# pode adicionar mais coisas aqui
 print('nao a oque fazer, ainda em construçao')
 print(f'Seu id é {users[user]}')
