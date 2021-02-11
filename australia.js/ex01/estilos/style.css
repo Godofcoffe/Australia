@@ -8,5 +8,6 @@ section {
 
 header {
     background-color: blue;
-    
+    height: 100px;
+    text-align: center;
 }
