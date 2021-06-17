@@ -17,7 +17,7 @@ class Barco_motor(Barco):
         super().__init__(tamanho, cor, material)
         self.motor = motor
         self.vel = 0
-    
+
     def acelerar(self):
         while self.vel < self.motor:
             print(self.vel)
