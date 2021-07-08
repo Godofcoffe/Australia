@@ -1,0 +1,16 @@
+/home/Robotnyte/CoisasC#/HelloWord/bin/Debug/net5.0/HelloWord
+/home/Robotnyte/CoisasC#/HelloWord/bin/Debug/net5.0/HelloWord.deps.json
+/home/Robotnyte/CoisasC#/HelloWord/bin/Debug/net5.0/HelloWord.runtimeconfig.json
+/home/Robotnyte/CoisasC#/HelloWord/bin/Debug/net5.0/HelloWord.runtimeconfig.dev.json
+/home/Robotnyte/CoisasC#/HelloWord/bin/Debug/net5.0/HelloWord.dll
+/home/Robotnyte/CoisasC#/HelloWord/bin/Debug/net5.0/ref/HelloWord.dll
+/home/Robotnyte/CoisasC#/HelloWord/bin/Debug/net5.0/HelloWord.pdb
+/home/Robotnyte/CoisasC#/HelloWord/obj/Debug/net5.0/HelloWord.csprojAssemblyReference.cache
+/home/Robotnyte/CoisasC#/HelloWord/obj/Debug/net5.0/HelloWord.GeneratedMSBuildEditorConfig.editorconfig
+/home/Robotnyte/CoisasC#/HelloWord/obj/Debug/net5.0/HelloWord.AssemblyInfoInputs.cache
+/home/Robotnyte/CoisasC#/HelloWord/obj/Debug/net5.0/HelloWord.AssemblyInfo.cs
+/home/Robotnyte/CoisasC#/HelloWord/obj/Debug/net5.0/HelloWord.csproj.CoreCompileInputs.cache
+/home/Robotnyte/CoisasC#/HelloWord/obj/Debug/net5.0/HelloWord.dll
+/home/Robotnyte/CoisasC#/HelloWord/obj/Debug/net5.0/ref/HelloWord.dll
+/home/Robotnyte/CoisasC#/HelloWord/obj/Debug/net5.0/HelloWord.pdb
+/home/Robotnyte/CoisasC#/HelloWord/obj/Debug/net5.0/HelloWord.genruntimeconfig.cache

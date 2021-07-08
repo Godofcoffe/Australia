@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/Robotnyte/.dotnet/store/|arch|/|tfm|",
+      "/home/Robotnyte/.nuget/packages"
+    ]
+  }
+}
