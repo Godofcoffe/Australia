@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G1D1ibd8aqniRWHS6WdEwLtA+nFyMrkbuOYFgcwo5BqTqKbMNWP3g6cVX4Y5rwDmsUDPi9/54n2UFd3gzcdP0A==",
+  "dgSpecHash": "ULkKT1P1iCeLkufF4R3ox+LMpOke5sU3OyCenhFReNR09oAbwPt/iyXVPjumftFt1Jcb/wD7BtVm5Lki57ycvg==",
   "success": true,
-  "projectFilePath": "/home/Robotnyte/CoisasC#/HelloWord/HelloWord.csproj",
+  "projectFilePath": "/home/Robotnyte/repos-local/Australia/australia.cs/HelloWord/HelloWord.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

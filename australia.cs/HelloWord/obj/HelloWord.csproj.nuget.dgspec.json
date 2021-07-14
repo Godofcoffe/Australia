@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/Robotnyte/CoisasC#/HelloWord/HelloWord.csproj": {}
+    "/home/Robotnyte/repos-local/Australia/australia.cs/HelloWord/HelloWord.csproj": {}
   },
   "projects": {
-    "/home/Robotnyte/CoisasC#/HelloWord/HelloWord.csproj": {
+    "/home/Robotnyte/repos-local/Australia/australia.cs/HelloWord/HelloWord.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/Robotnyte/CoisasC#/HelloWord/HelloWord.csproj",
+        "projectUniqueName": "/home/Robotnyte/repos-local/Australia/australia.cs/HelloWord/HelloWord.csproj",
         "projectName": "HelloWord",
-        "projectPath": "/home/Robotnyte/CoisasC#/HelloWord/HelloWord.csproj",
+        "projectPath": "/home/Robotnyte/repos-local/Australia/australia.cs/HelloWord/HelloWord.csproj",
         "packagesPath": "/home/Robotnyte/.nuget/packages/",
-        "outputPath": "/home/Robotnyte/CoisasC#/HelloWord/obj/",
+        "outputPath": "/home/Robotnyte/repos-local/Australia/australia.cs/HelloWord/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/Robotnyte/.nuget/NuGet/NuGet.Config"
